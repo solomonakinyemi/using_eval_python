@@ -1,5 +1,5 @@
 # using_eval_python
-I discovered this feature in python when I was trying to optimise a chunk of code I wrote a few months back. I had a conversation with a colleague of mine at work and the response was that the usage of "eval()" was frowned upon so I wanted to understand why. This just shows how I used it
+I discovered this feature in python when I was trying to optimise a chunk of code I wrote a few months back. I had a conversation with a colleague of mine at work and the response was that the usage of "eval()" was frowned upon so I wanted to understand why. This just shows how I used it.
 
 I used the function "eval()" feature whilst writing a data migration program used to move data between asset management tools I realised I had a bunch of functions doing similar things, i.e. making API calls. 
 
