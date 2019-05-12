@@ -18,8 +18,7 @@ def call_function(module, function_selector, param={}):
                      "content": "get_url_content"
                     }
     if function_selector == 'id':
-        d = next(iter(param.values()))
-        function_string = 'module.{0}(random_param="{1}")'.format(function_dict[function_selector], d)
+        function_string = 'module.{0}(random_param="{1}")'.format(function_dict[function_selector], next(iter(param.values())))
     elif function_selector == 'category':
         function_string = 'module.{0}(category="{1}")'.format(function_dict[function_selector], next(iter(param.values())))
     elif function_selector == 'content':
