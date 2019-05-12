@@ -26,4 +26,4 @@ To run:
 1. Clone the repository
 2. cd into the directory
 3. activate the virtual environment: source bin/activate
-4. run the code: python eval_function.py
+4. run the code: python eval_test.py
