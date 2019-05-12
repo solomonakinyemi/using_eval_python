@@ -23,7 +23,7 @@ GOAL:
 4. Use the "eval" feature to evaluate/execute the code at run time to provide the desired effect
 
 To run: 
-1. Clone the repository
-2. cd into the directory
-3. activate the virtual environment: source bin/activate
-4. run the code: python eval_test.py
+1. Clone the repository: git@github.com:solomonakinyemi/using_eval_python.git
+2. Navigate into the directory where the files are stored
+3. Activate the virtual environment: source bin/activate
+4. Run the code: python eval_test.py
